@@ -29,11 +29,6 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-nginx
-  specs:
-    nginx (1.4.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
     nodejs (2.2.0)
@@ -71,7 +66,6 @@ DEPENDENCIES
   homebrew (= 1.1.2)
   hub (= 1.0.0)
   inifile (= 0.9.0)
-  nginx (= 1.4.0)
   nodejs (= 2.2.0)
   repository (= 2.0.2)
   ruby (= 4.1.0)
