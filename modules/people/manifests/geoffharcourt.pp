@@ -36,6 +36,7 @@ class people::geoffharcourt {
 
   class { 'ruby::global':
     version => '2.0.0'
+  }
   
   ruby::plugin { 'rbenv-vars':
     ensure => 'v1.2.0',
