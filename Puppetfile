@@ -18,15 +18,15 @@ github "boxen", "2.3.5"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",    "1.0.0"
-github "gcc",        "1.0.0"
-github "git",        "1.2.2"
+#github "dnsmasq",    "1.0.0"
+github "gcc",        "2.0.0"
+github "git",        "1.2.4"
 github "homebrew",   "1.1.2"
 github "hub",        "1.0.0"
 github "inifile",    "0.9.0", :repo => "cprice404/puppetlabs-inifile"
 github "nodejs",     "2.2.0"
-github "repository", "2.0.2"
-github "ruby",       "4.1.0"
+github "repository", "2.2.0"
+github "ruby",       "6.0.0"
 github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 
