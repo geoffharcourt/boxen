@@ -27,6 +27,13 @@ class people::geoffharcourt {
   include tmux
   include wget
 
+  boxen::osx_defaults { "Disable 'natural scrolling'":
+    key    => 'com.apple.swipescrolldirection',
+    domain => 'NSGlobalDomain',
+    value  => 'false',
+    type   => 'bool',
+  }
+
 
 }
 
